@@ -23,7 +23,7 @@ public class home_6 {
         while (flag) {
             System.out.println("Выберите фильтр:");
             System.out.println("1 - OS");
-            System.out.println("2 - Объем RAM");
+            System.out.println("2 - Объем ОЗУ");
             System.out.println("3 - Объем SSD");
             System.out.println("4 - Применить фильтры");
             System.out.println("5 - Сбросить фильтры");
@@ -84,9 +84,6 @@ public class home_6 {
                     }
                     break;
                 case 5:
-                    for (Object o: a) {
-                        System.out.println(o.toString());
-                    }
                     empty.clear();
                     empty.addAll(a);
                     break;
